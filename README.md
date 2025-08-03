@@ -25,15 +25,15 @@ Este proyecto es un CRUD web en PHP que se conecta a una API Flask alojada en `h
 - API Flask funcional con rutas como `/login`, `/usuarios`, etc.
 
 ##  Estructura
-
+```
 crud/
 ├── login.php # Inicia sesión vía API
 ├── index.php # Listado y edición de usuarios
 ├── agregar.php # Crear nuevos usuarios
 ├── conexion.php # Cliente cURL para la API
-├── css/ # Estilos Bootstrap 
+├── css/ # Estilos Bootstrap  
 ...
-
+```
 ##  Por qué este enfoque
 
 Este CRUD prioriza la lógica funcional en lugar del diseño visual. Es ideal para entornos donde:
